@@ -78,7 +78,7 @@ legionuhd
 ```
 
 ### 🚀 Roadmap v7.0 Titan
-↔ #### Voir docs/ROADMAP.md
+- ↔ Voir docs/ROADMAP.md
 
 ### 👤 Auteur
 ```text
