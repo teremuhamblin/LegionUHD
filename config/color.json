@@ -1,0 +1,22 @@
+{
+  "hud_primary": "#3AFF5C",
+  "hud_primary_dark": "#1A2F1A",
+  "hud_background": "#0C1110",
+  "hud_accent": "#8A8A8A",
+  "hud_text": "#E5E5E5",
+
+  "alert_high": "#FF3A3A",
+  "alert_medium": "#FF9F1C",
+  "alert_low": "#3AFF5C",
+
+  "network_online": "#3AFF5C",
+  "network_offline": "#FF3A3A",
+
+  "battery_full": "#3AFF5C",
+  "battery_medium": "#FF9F1C",
+  "battery_low": "#FF3A3A",
+
+  "cpu_normal": "#3AFF5C",
+  "cpu_warning": "#FF9F1C",
+  "cpu_critical": "#FF3A3A"
+}
