@@ -1,6 +1,4 @@
 📘 README.rst — Version complète, optimisée, militaire
-
-`rst
 ===========================================================
                  LegionUHD — Tactical HUD Framework
 ===========================================================
