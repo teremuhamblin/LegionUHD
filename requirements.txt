@@ -1,17 +1,27 @@
-asyncio
-six
-qasync
-SQLAlchemy==1.4.50
-PyQt6
-requests
-pyfiglet
-colorama
-termcolor
-pyExploitDb
+# ============================================================
+# LegionUHD - Requirements (Termux + HUD + Modules Réseau)
+# Version optimisée et sécurisée
+# ============================================================
+
+# --- Réseau / API / HTTP ---
+requests==2.32.3
+urllib3==2.2.1
+
+# --- Sécurité / OSINT ---
 pyShodan
-GitPython
-pandas
-flake8
-rich
-urllib3==1.23
-selenium==3.141.0
+pyExploitDb
+
+# --- Console / HUD / Affichage ---
+rich==13.7.0
+colorama==0.4.6
+termcolor==2.4.0
+pyfiglet==1.0.2
+
+# --- Git / Gestion du dépôt ---
+GitPython==3.1.43
+
+# --- Qualité / Lint ---
+flake8==7.1.0
+
+# --- Asynchrone (optionnel) ---
+qasync==0.27.1
