@@ -1,59 +1,122 @@
-### 🛡️ Attribution — Conditions
-- 》》 additionnelles selon GPL‑3.0 §7(b)
+```text
+- que LegionUHD utilise The Unlicense comme licence principale  
+- que le dossier assets/ utilise ta licence personnelle open‑source  
+- que tu veux un fichier Markdown clair, prêt à intégrer dans ton dépôt GitHub  
+- que tu veux un style propre, moderne, et cohérent avec ton univers militaire / technique  
+```
+###### ATTRIBUTION.md >> markdown 
+# 🛡️ — LegionUHD
 
-Version adaptée pour LegionUHD
-
-LegionUHD est distribué sous la licence GNU General Public License, version 3.0 (GPL‑3.0).
-
-Conformément à la Section 7(b) de la GPL‑3.0, les termes additionnels suivants s’appliquent à ce projet, ainsi qu’à toutes ses copies, versions modifiées ou travaux dérivés :
-
----
-
-🔖 §7(b) — Attribution de l’auteur
-
-Vous devez préserver les mentions légales et les attributions d’auteur spécifiées dans ce matériel, ainsi que dans les “Avis légaux appropriés” affichés par les œuvres qui l’intègrent.
-
-Plus précisément, toute utilisation, fork ou distribution de ce logiciel (en code source ou compilé, modifié ou non) doit créditer :
-
-« Teremu / Major Hamblin — Créateur de LegionUHD »
-🔗 https://github.com/Teremu/LegionUHD (URL fictive, à remplacer par ton dépôt réel)
-
-Cette attribution doit apparaître dans DEUX emplacements obligatoires :
-
-1. La documentation du projet  
-   - README  
-   - Page “À propos”  
-   - Documentation utilisateur  
-   - Toute page équivalente
-
-2. L’écran de crédits / mentions légales dans l’application  
-   - Section “About”  
-   - Crédits intégrés  
-   - Mentions légales affichées à l’utilisateur
-
-Ces obligations constituent un terme additionnel autorisé par la Section 7(b) de la GPL‑3.0.  
-Elles ne restreignent pas les libertés fondamentales de la licence (utiliser, étudier, modifier, partager).  
-Elles imposent uniquement la préservation de l’attribution.  
-Vous ne pouvez pas la retirer.
+Ce document précise les obligations d’attribution et les mentions légales associées au projet LegionUHD, ainsi qu’aux éléments sous licences distinctes (The Unlicense et licence personnelle pour le dossier assets/).
 
 ---
 
-📜 Extrait pertinent de la GPL‑3.0 §7
+📘 1. Attribution principale — LegionUHD
 
-> « Lorsque vous transmettez une copie d’une œuvre couverte, vous pouvez retirer les permissions additionnelles de cette copie. […]  
-> Nonobstant toute autre disposition de cette licence, pour le matériel que vous ajoutez à une œuvre couverte, vous pouvez […] compléter les termes de cette licence avec des conditions :  
-> (b) exigeant la préservation de mentions légales raisonnables ou d’attributions d’auteur dans ce matériel ou dans les Avis légaux appropriés affichés par les œuvres qui l’intègrent. »
+Le projet LegionUHD est placé dans le domaine public via The Unlicense.  
+Vous êtes libre d’utiliser, copier, modifier, fusionner, publier, distribuer ou vendre ce logiciel sans aucune restriction.
+
+Cependant, afin de préserver l’intégrité du projet et son historique de création, l’attribution suivante est fortement recommandée dans toute redistribution, fork ou dérivé :
+
+```text
+LegionUHD — Créé par Teremu / Major Hamblin
+```
+
+Cette attribution peut apparaître dans :
+
+- le README du projet dérivé  
+- la documentation utilisateur  
+- la section “À propos” ou “Crédits” d’une application  
+- les commentaires d’en‑tête des fichiers sources  
+
+Elle n’est pas obligatoire au sens juridique (The Unlicense), mais elle est demandée par respect du travail original.
 
 ---
 
-🧩 Crédit obligatoire (copier/coller)
+📁 2. Attribution spécifique — Dossier assets/
 
-`
-LegionUHD © Teremu / Major Hamblin
-https://github.com/Teremu/LegionUHD
-Distribué sous GPL-3.0 avec une exigence additionnelle d’attribution selon §7(b).
-`
+Le dossier assets/ utilise une licence personnelle open‑source distincte de The Unlicense.  
+Cette licence impose une attribution obligatoire pour toute utilisation, modification ou redistribution des éléments contenus dans assets/.
 
-Les en‑têtes de copyright présents dans les fichiers sources (ex. legionuhd.sh, hudmonitor.py, systemmodes.sh, etc.) font partie de ces mentions et doivent également être conservés.
+L’attribution requise est :
+
+```text
+Assets LegionUHD © Teremu / Major Hamblin
+Licence personnelle open-source — Voir assets/LICENSE.md
+```
+
+Toute réutilisation des éléments graphiques, icônes, HUD, animations, thèmes ou fichiers visuels doit conserver :
+
+- la licence assets/LICENSE.md  
+- les mentions d’auteur présentes dans les fichiers  
+- les en‑têtes de copyright associés  
+
+---
+
+⚙️ 3. Structure des licences dans le projet
+
+| Zone / Dossier        | Licence appliquée                     | Attribution requise |
+|-----------------------|----------------------------------------|----------------------|
+| Racine du projet      | The Unlicense                      | Recommandée          |
+| Scripts (.sh, .py) | The Unlicense                       | Recommandée          |
+| Documentation (docs/) | The Unlicense                       | Recommandée          |
+| Dossier assets/     | Licence personnelle open‑source    | Obligatoire          |
+| Icônes / HUD / thèmes | Licence personnelle open‑source        | Obligatoire          |
+
+---
+
+🧩 4. Mentions légales à conserver
+
+Les fichiers contenant des en‑têtes de copyright ou des signatures d’auteur doivent être préservés, notamment :
+
+- assets/icons/…
+- assets/hud/…
+- assets/themes/…
+- tout fichier contenant la mention :  
+  “Assets LegionUHD © Teremu / Major Hamblin”
+
+---
+
+🔓 5. Rappel sur The Unlicense
+
+The Unlicense place le code dans le domaine public.  
+Vous pouvez :
+
+- utiliser  
+- modifier  
+- redistribuer  
+- vendre  
+- intégrer dans un projet propriétaire  
+
+sans aucune obligation légale d’attribution.
+
+Cependant, l’attribution recommandée permet de :
+
+- reconnaître l’auteur original  
+- maintenir une traçabilité du projet  
+- éviter les confusions dans les forks  
+
+---
+
+🛠️ 6. Exemple d’attribution complète (copier/coller)
+
+```text
+LegionUHD — Domaine public via The Unlicense
+Créé par Teremu / Major Hamblin
+
+Assets LegionUHD © Teremu / Major Hamblin
+Licence personnelle open-source — Voir assets/LICENSE.md
+```
+
+---
+
+🛰️ 7. Contact
+```text
+Pour toute question concernant l’attribution ou les licences :
+
+Teremu / Major Hamblin  
+Mainteneur du projet LegionUHD  
+GitHub : https://github.com/Teremu  
+```
 
 ---
