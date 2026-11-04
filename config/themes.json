@@ -1,0 +1,11 @@
+{
+  "theme_name": "LegionUHD-Tactical",
+  "colors": {
+    "primary": "#00FF66",
+    "secondary": "#00AA44",
+    "warning": "#FFAA00",
+    "danger": "#FF0033",
+    "background": "#0A0A0A",
+    "text": "#E0E0E0"
+  }
+}
